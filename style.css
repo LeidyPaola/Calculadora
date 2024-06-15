@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200.. 1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  .calculadora {
+    width: 400px; /* Ancho de la calculadora */
+    margin: 0 auto; /* Centra horizontalmente la calculadora en la pantalla del pc */
+    text-align: center; /* Alinea el texto al centro dentro de la calculadora */
+    border: 2px solid #ccc; /* Crea un borde de 2 píxeles sólido y de color gris claro alrededor de la calculadora */
+    padding: 10px; /* Agrega un espacio interno de 10 píxeles alrededor del contenido de la calculadora */
+    text-align: right; /* Alinea el texto a la derecha dentro de la calculadora */
+    background-color: rgb(12, 12, 182); /* Establece el color de fondo de la calculadora en un tono azul oscuro */
+    border-radius: 10px; /* Redondea las esquinas del borde de la calculadora con un radio de 10 píxeles */
+}
+
+  
+.pantalla {
+  font-size: 2em; /* Tamaño de fuente 2 veces el tamaño predeterminado */
+  border: 1px solid #ccc; /* Borde de 1 píxel sólido y de color gris claro alrededor de la pantalla */
+  margin-bottom: 10px; /* Margen inferior de 10 píxeles */
+  padding: 5px; /* Espacio interno de 5 píxeles alrededor del contenido de la pantalla */
+  height: 100px; /* Altura de la pantalla de 100 píxeles */
+  background-color: white; /* Color de fondo blanco */
+  display: flex; /* Usa el modelo de caja flexible para el diseño */
+  align-items: center; /* Alinea verticalmente el contenido al centro */
+  justify-content: flex-end; /* Alinea horizontalmente el contenido al extremo derecho */
+  padding-right: 10px; /* Espacio interno de 10 píxeles en el lado derecho */
+  box-sizing: border-box; /* Incluye el tamaño del borde y el relleno en el ancho y alto total del elemento */
+}
+
+  
+.teclado {
+  display: grid; /* Utiliza el modelo de caja de cuadrícula para el diseño del teclado */
+  grid-template-columns: repeat(4, 1fr); /* Crea 4 columnas de igual ancho dentro de la cuadrícula */
+  gap: 5px; /* Establece un espacio de 5 píxeles entre las celdas de la cuadrícula */
+  height: 450px; /* Altura del teclado de 450 píxeles */
+}
+
+
+  button {
+    border-radius: 15px; /* Redondea los botones */
+  }
+
+  .num {
+    background-color: #8c92ed;
+  }
+
+  .funcion {
+    background-color: #938d8d;
+  }  
+
+  .igual {
+    background-color: rgb(0, 132, 255);
+  }
+
+  .simbolos {
+    background-color: rgb(201, 201, 192);
+  }
+
+  .teclado button {
+    padding: 15px; /* Tamaño de los botones */
+    font-size: 1.5em; /* Tamaño de la letra dentro de los botones */
+  }
+  
+  .teclado button:hover {
+    background-color: #f0f0f0;
+  }
+  
