@@ -6,46 +6,45 @@
   <title>Proyecto_inicial</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<script src="script.js"></script>
-
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="script.js"></script>
 </head>
 <body>
   <h1>Mi Calculadora Virtual</h1>
   <section id="calculadora" class="calculadora">
-    <div id="pantalla" class="pantalla">1284</div>
+    <div id="pantalla" class="pantalla"></div>
     <div id="teclado" class="teclado">
-      <button id="btn" class="funcion">C</button>
-      <button id="btn" class="simbolos">/</button>
-      <button id="btn" class="simbolos">*</button>
-      <button id="btn" class="funcion"><i class="fas fa-backspace"></i></button>
+      <button class="funcion">C</button>
+      <button class="simbolos">√</button>
+      <button class="simbolos">∛</button>
+      <button id="backspace" class="funcion"><i class="fas fa-backspace"></i></button>
 
-      <button id="btn" class="simbolos">(</button>
-      <button id="btn" class="simbolos">)</button>
-      <button id="btn" class="simbolos">%</button>
-      <button id="btn" class="simbolos">√</button>
+      <button class="simbolos">(</button>
+      <button class="simbolos">)</button>
+      <button class="simbolos">%</button>
+      <button class="simbolos">/</button>
       
       <button id="btn7" class="num">7</button>
       <button id="btn8" class="num">8</button>
       <button id="btn9" class="num">9</button>
-      <button id="btn" class="simbolos">-</button>
+      <button class="simbolos">*</button>
       
       <button id="btn4" class="num">4</button>
       <button id="btn5" class="num">5</button>
       <button id="btn6" class="num">6</button>
-      <button id="btn" class="simbolos">+</button>
+      <button class="simbolos">-</button>
       
       <button id="btn1" class="num">1</button>
       <button id="btn2" class="num">2</button>
       <button id="btn3" class="num">3</button>
-      <button id="btn" class="igual">=</button>
+      <button class="simbolos">+</button>
       
-      <button id="btn" class="simbolos">+/-</button>
-      <button id="btn0"  class="num">0</button>
-      <button id="btn" class="simbolos">.</button>
-      <button id="btn" class="simbolos">,</button>
+      <button class="simbolos">+/-</button>
+      <button id="btn0" class="num">0</button>
+      <button class="simbolos">.</button>
+      <button class="igual">=</button>
     </div>
     <div id="instrucciones" class="instrucciones"></div>
   </section>
