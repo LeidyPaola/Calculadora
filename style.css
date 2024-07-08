@@ -19,7 +19,7 @@ body {
     text-align: right; /* Alinea el texto a la derecha dentro de la calculadora */
     background-color: rgb(12, 12, 182); /* Establece el color de fondo de la calculadora en un tono azul oscuro */
     border-radius: 10px; /* Redondea las esquinas del borde de la calculadora con un radio de 10 píxeles */
-    box-shadow: 20px 20px; /*Da sombra a la calculadora*/
+    box-shadow: 10px 10px 50px 10px #b5b2b2; /*Sombra y difuminado*/
 }
 
   
